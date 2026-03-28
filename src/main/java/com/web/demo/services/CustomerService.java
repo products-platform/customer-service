@@ -1,14 +1,23 @@
 package com.web.demo.services;
 
-import com.web.demo.records.Customer;
+import com.product.dtos.customer.*;
+import org.jspecify.annotations.Nullable;
 
 import java.util.List;
 
 public interface CustomerService {
 
-    List<Customer> getAllCustomers();
+    List<CustomerDTO> getAllCustomers();
 
-    Customer getCustomerById(Long id);
+    CustomerDTO getCustomerById(Long id);
 
-    List<Customer> getCustomers(List<Long> userIds);
+    List<CustomerDTO> getCustomers(List<Long> userIds);
+
+    CustomerResponse createCustomer(CustomerRequest request);
+
+    AddressResponse addAddress(Long customerId, AddressRequest request);
+
+    List<AddressResponse> getAddresses(Long customerId);
+
+    String createCustomers(List<CustomerRequest> request);
 }

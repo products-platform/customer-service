@@ -1,0 +1,882 @@
+[
+    {
+        "id": 1,
+        "name": "Karthik Mehta",
+        "email": "karthik.mehta1@gmail.com",
+        "phone": "9822650152",
+        "addresses": [
+            {
+                "id": 11,
+                "customerId": 1,
+                "addressType": "HOME",
+                "addressLine1": "450 Main Street",
+                "addressLine2": "Apt 46",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "pincode": "154100",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 12,
+                "customerId": 1,
+                "addressType": "OFFICE",
+                "addressLine1": "262 Main Street",
+                "addressLine2": "Apt 46",
+                "city": "Chennai",
+                "state": "Telangana",
+                "pincode": "886480",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 13,
+                "customerId": 1,
+                "addressType": "DELIVERY",
+                "addressLine1": "185 Main Street",
+                "addressLine2": "Apt 22",
+                "city": "Bangalore",
+                "state": "Tamil Nadu",
+                "pincode": "374375",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Arjun Das",
+        "email": "arjun.das2@gmail.com",
+        "phone": "9749284452",
+        "addresses": [
+            {
+                "id": 21,
+                "customerId": 2,
+                "addressType": "HOME",
+                "addressLine1": "445 Main Street",
+                "addressLine2": "Apt 43",
+                "city": "Delhi",
+                "state": "Maharashtra",
+                "pincode": "510059",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 22,
+                "customerId": 2,
+                "addressType": "OFFICE",
+                "addressLine1": "378 Main Street",
+                "addressLine2": "Apt 26",
+                "city": "Chennai",
+                "state": "Delhi",
+                "pincode": "369274",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 23,
+                "customerId": 2,
+                "addressType": "DELIVERY",
+                "addressLine1": "101 Main Street",
+                "addressLine2": "Apt 36",
+                "city": "Bangalore",
+                "state": "Maharashtra",
+                "pincode": "993400",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Aarav Gupta",
+        "email": "aarav.gupta3@gmail.com",
+        "phone": "9302902359",
+        "addresses": [
+            {
+                "id": 31,
+                "customerId": 3,
+                "addressType": "HOME",
+                "addressLine1": "449 Main Street",
+                "addressLine2": "Apt 28",
+                "city": "Hyderabad",
+                "state": "Maharashtra",
+                "pincode": "624755",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 32,
+                "customerId": 3,
+                "addressType": "OFFICE",
+                "addressLine1": "303 Main Street",
+                "addressLine2": "Apt 37",
+                "city": "Hyderabad",
+                "state": "Maharashtra",
+                "pincode": "944663",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 33,
+                "customerId": 3,
+                "addressType": "DELIVERY",
+                "addressLine1": "335 Main Street",
+                "addressLine2": "Apt 15",
+                "city": "Chennai",
+                "state": "Karnataka",
+                "pincode": "658776",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Vivaan Kumar",
+        "email": "vivaan.kumar4@gmail.com",
+        "phone": "9300501580",
+        "addresses": [
+            {
+                "id": 41,
+                "customerId": 4,
+                "addressType": "HOME",
+                "addressLine1": "205 Main Street",
+                "addressLine2": "Apt 47",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "pincode": "795094",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 42,
+                "customerId": 4,
+                "addressType": "OFFICE",
+                "addressLine1": "121 Main Street",
+                "addressLine2": "Apt 28",
+                "city": "Chennai",
+                "state": "Telangana",
+                "pincode": "223673",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 43,
+                "customerId": 4,
+                "addressType": "DELIVERY",
+                "addressLine1": "107 Main Street",
+                "addressLine2": "Apt 11",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "pincode": "916849",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Aadhya Singh",
+        "email": "aadhya.singh5@gmail.com",
+        "phone": "9550390148",
+        "addresses": [
+            {
+                "id": 51,
+                "customerId": 5,
+                "addressType": "HOME",
+                "addressLine1": "475 Main Street",
+                "addressLine2": "Apt 24",
+                "city": "Hyderabad",
+                "state": "Delhi",
+                "pincode": "389451",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 52,
+                "customerId": 5,
+                "addressType": "OFFICE",
+                "addressLine1": "141 Main Street",
+                "addressLine2": "Apt 31",
+                "city": "Mumbai",
+                "state": "Tamil Nadu",
+                "pincode": "617708",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 53,
+                "customerId": 5,
+                "addressType": "DELIVERY",
+                "addressLine1": "487 Main Street",
+                "addressLine2": "Apt 20",
+                "city": "Hyderabad",
+                "state": "Karnataka",
+                "pincode": "721870",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Rohan Sharma",
+        "email": "rohan.sharma6@gmail.com",
+        "phone": "9202653754",
+        "addresses": [
+            {
+                "id": 61,
+                "customerId": 6,
+                "addressType": "HOME",
+                "addressLine1": "127 Main Street",
+                "addressLine2": "Apt 21",
+                "city": "Chennai",
+                "state": "Delhi",
+                "pincode": "952295",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 62,
+                "customerId": 6,
+                "addressType": "OFFICE",
+                "addressLine1": "122 Main Street",
+                "addressLine2": "Apt 26",
+                "city": "Chennai",
+                "state": "Maharashtra",
+                "pincode": "772632",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 63,
+                "customerId": 6,
+                "addressType": "DELIVERY",
+                "addressLine1": "306 Main Street",
+                "addressLine2": "Apt 22",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "pincode": "166137",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Rohan Patel",
+        "email": "rohan.patel7@gmail.com",
+        "phone": "9180977775",
+        "addresses": [
+            {
+                "id": 71,
+                "customerId": 7,
+                "addressType": "HOME",
+                "addressLine1": "276 Main Street",
+                "addressLine2": "Apt 24",
+                "city": "Delhi",
+                "state": "Karnataka",
+                "pincode": "977228",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 72,
+                "customerId": 7,
+                "addressType": "OFFICE",
+                "addressLine1": "402 Main Street",
+                "addressLine2": "Apt 19",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "pincode": "985022",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 73,
+                "customerId": 7,
+                "addressType": "DELIVERY",
+                "addressLine1": "34 Main Street",
+                "addressLine2": "Apt 12",
+                "city": "Bangalore",
+                "state": "Tamil Nadu",
+                "pincode": "638931",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Krishna Sharma",
+        "email": "krishna.sharma8@gmail.com",
+        "phone": "9417821386",
+        "addresses": [
+            {
+                "id": 81,
+                "customerId": 8,
+                "addressType": "HOME",
+                "addressLine1": "28 Main Street",
+                "addressLine2": "Apt 44",
+                "city": "Mumbai",
+                "state": "Karnataka",
+                "pincode": "860057",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 82,
+                "customerId": 8,
+                "addressType": "OFFICE",
+                "addressLine1": "52 Main Street",
+                "addressLine2": "Apt 26",
+                "city": "Bangalore",
+                "state": "Delhi",
+                "pincode": "898230",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 83,
+                "customerId": 8,
+                "addressType": "DELIVERY",
+                "addressLine1": "278 Main Street",
+                "addressLine2": "Apt 43",
+                "city": "Hyderabad",
+                "state": "Tamil Nadu",
+                "pincode": "225999",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Aditya Kumar",
+        "email": "aditya.kumar9@gmail.com",
+        "phone": "9997323932",
+        "addresses": [
+            {
+                "id": 91,
+                "customerId": 9,
+                "addressType": "HOME",
+                "addressLine1": "102 Main Street",
+                "addressLine2": "Apt 8",
+                "city": "Mumbai",
+                "state": "Telangana",
+                "pincode": "622853",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 92,
+                "customerId": 9,
+                "addressType": "OFFICE",
+                "addressLine1": "96 Main Street",
+                "addressLine2": "Apt 34",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "pincode": "447693",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 93,
+                "customerId": 9,
+                "addressType": "DELIVERY",
+                "addressLine1": "180 Main Street",
+                "addressLine2": "Apt 26",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "pincode": "697683",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Pooja Singh",
+        "email": "pooja.singh10@gmail.com",
+        "phone": "9687153969",
+        "addresses": [
+            {
+                "id": 101,
+                "customerId": 10,
+                "addressType": "HOME",
+                "addressLine1": "192 Main Street",
+                "addressLine2": "Apt 17",
+                "city": "Bangalore",
+                "state": "Maharashtra",
+                "pincode": "861828",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 102,
+                "customerId": 10,
+                "addressType": "OFFICE",
+                "addressLine1": "281 Main Street",
+                "addressLine2": "Apt 37",
+                "city": "Chennai",
+                "state": "Telangana",
+                "pincode": "898932",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 103,
+                "customerId": 10,
+                "addressType": "DELIVERY",
+                "addressLine1": "42 Main Street",
+                "addressLine2": "Apt 48",
+                "city": "Hyderabad",
+                "state": "Maharashtra",
+                "pincode": "687031",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Sai Singh",
+        "email": "sai.singh11@gmail.com",
+        "phone": "9386132277",
+        "addresses": [
+            {
+                "id": 111,
+                "customerId": 11,
+                "addressType": "HOME",
+                "addressLine1": "250 Main Street",
+                "addressLine2": "Apt 2",
+                "city": "Delhi",
+                "state": "Telangana",
+                "pincode": "516815",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 112,
+                "customerId": 11,
+                "addressType": "OFFICE",
+                "addressLine1": "103 Main Street",
+                "addressLine2": "Apt 7",
+                "city": "Delhi",
+                "state": "Tamil Nadu",
+                "pincode": "358005",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 113,
+                "customerId": 11,
+                "addressType": "DELIVERY",
+                "addressLine1": "441 Main Street",
+                "addressLine2": "Apt 37",
+                "city": "Chennai",
+                "state": "Maharashtra",
+                "pincode": "389504",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Priya Sharma",
+        "email": "priya.sharma12@gmail.com",
+        "phone": "9269675474",
+        "addresses": [
+            {
+                "id": 121,
+                "customerId": 12,
+                "addressType": "HOME",
+                "addressLine1": "333 Main Street",
+                "addressLine2": "Apt 45",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "pincode": "596700",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 122,
+                "customerId": 12,
+                "addressType": "OFFICE",
+                "addressLine1": "420 Main Street",
+                "addressLine2": "Apt 34",
+                "city": "Bangalore",
+                "state": "Telangana",
+                "pincode": "945998",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 123,
+                "customerId": 12,
+                "addressType": "DELIVERY",
+                "addressLine1": "372 Main Street",
+                "addressLine2": "Apt 49",
+                "city": "Mumbai",
+                "state": "Tamil Nadu",
+                "pincode": "773470",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sai Kumar",
+        "email": "sai.kumar13@gmail.com",
+        "phone": "9197222817",
+        "addresses": [
+            {
+                "id": 131,
+                "customerId": 13,
+                "addressType": "HOME",
+                "addressLine1": "483 Main Street",
+                "addressLine2": "Apt 47",
+                "city": "Mumbai",
+                "state": "Karnataka",
+                "pincode": "221830",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 132,
+                "customerId": 13,
+                "addressType": "OFFICE",
+                "addressLine1": "219 Main Street",
+                "addressLine2": "Apt 45",
+                "city": "Hyderabad",
+                "state": "Maharashtra",
+                "pincode": "438316",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 133,
+                "customerId": 13,
+                "addressType": "DELIVERY",
+                "addressLine1": "442 Main Street",
+                "addressLine2": "Apt 31",
+                "city": "Mumbai",
+                "state": "Tamil Nadu",
+                "pincode": "799297",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Aarav Kumar",
+        "email": "aarav.kumar14@gmail.com",
+        "phone": "9596062222",
+        "addresses": [
+            {
+                "id": 141,
+                "customerId": 14,
+                "addressType": "HOME",
+                "addressLine1": "470 Main Street",
+                "addressLine2": "Apt 33",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "pincode": "414400",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 142,
+                "customerId": 14,
+                "addressType": "OFFICE",
+                "addressLine1": "233 Main Street",
+                "addressLine2": "Apt 26",
+                "city": "Delhi",
+                "state": "Telangana",
+                "pincode": "226405",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 143,
+                "customerId": 14,
+                "addressType": "DELIVERY",
+                "addressLine1": "72 Main Street",
+                "addressLine2": "Apt 9",
+                "city": "Hyderabad",
+                "state": "Delhi",
+                "pincode": "684482",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Diya Reddy",
+        "email": "diya.reddy15@gmail.com",
+        "phone": "9958556807",
+        "addresses": [
+            {
+                "id": 151,
+                "customerId": 15,
+                "addressType": "HOME",
+                "addressLine1": "333 Main Street",
+                "addressLine2": "Apt 29",
+                "city": "Delhi",
+                "state": "Delhi",
+                "pincode": "569569",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 152,
+                "customerId": 15,
+                "addressType": "OFFICE",
+                "addressLine1": "219 Main Street",
+                "addressLine2": "Apt 7",
+                "city": "Bangalore",
+                "state": "Delhi",
+                "pincode": "765218",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 153,
+                "customerId": 15,
+                "addressType": "DELIVERY",
+                "addressLine1": "70 Main Street",
+                "addressLine2": "Apt 50",
+                "city": "Delhi",
+                "state": "Telangana",
+                "pincode": "678014",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Kavya Sharma",
+        "email": "kavya.sharma16@gmail.com",
+        "phone": "9848947434",
+        "addresses": [
+            {
+                "id": 161,
+                "customerId": 16,
+                "addressType": "HOME",
+                "addressLine1": "381 Main Street",
+                "addressLine2": "Apt 23",
+                "city": "Bangalore",
+                "state": "Tamil Nadu",
+                "pincode": "666867",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 162,
+                "customerId": 16,
+                "addressType": "OFFICE",
+                "addressLine1": "492 Main Street",
+                "addressLine2": "Apt 21",
+                "city": "Chennai",
+                "state": "Maharashtra",
+                "pincode": "766208",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 163,
+                "customerId": 16,
+                "addressType": "DELIVERY",
+                "addressLine1": "438 Main Street",
+                "addressLine2": "Apt 6",
+                "city": "Delhi",
+                "state": "Karnataka",
+                "pincode": "719033",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Diya Mehta",
+        "email": "diya.mehta17@gmail.com",
+        "phone": "9214203500",
+        "addresses": [
+            {
+                "id": 171,
+                "customerId": 17,
+                "addressType": "HOME",
+                "addressLine1": "109 Main Street",
+                "addressLine2": "Apt 41",
+                "city": "Mumbai",
+                "state": "Telangana",
+                "pincode": "449075",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 172,
+                "customerId": 17,
+                "addressType": "OFFICE",
+                "addressLine1": "285 Main Street",
+                "addressLine2": "Apt 45",
+                "city": "Bangalore",
+                "state": "Maharashtra",
+                "pincode": "602485",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 173,
+                "customerId": 17,
+                "addressType": "DELIVERY",
+                "addressLine1": "77 Main Street",
+                "addressLine2": "Apt 10",
+                "city": "Mumbai",
+                "state": "Telangana",
+                "pincode": "976460",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Aarav Kumar",
+        "email": "aarav.kumar18@gmail.com",
+        "phone": "9989565747",
+        "addresses": [
+            {
+                "id": 181,
+                "customerId": 18,
+                "addressType": "HOME",
+                "addressLine1": "313 Main Street",
+                "addressLine2": "Apt 32",
+                "city": "Bangalore",
+                "state": "Telangana",
+                "pincode": "154376",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 182,
+                "customerId": 18,
+                "addressType": "OFFICE",
+                "addressLine1": "235 Main Street",
+                "addressLine2": "Apt 23",
+                "city": "Mumbai",
+                "state": "Telangana",
+                "pincode": "308793",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 183,
+                "customerId": 18,
+                "addressType": "DELIVERY",
+                "addressLine1": "238 Main Street",
+                "addressLine2": "Apt 27",
+                "city": "Hyderabad",
+                "state": "Delhi",
+                "pincode": "218595",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Aditya Mehta",
+        "email": "aditya.mehta19@gmail.com",
+        "phone": "9587541160",
+        "addresses": [
+            {
+                "id": 191,
+                "customerId": 19,
+                "addressType": "HOME",
+                "addressLine1": "365 Main Street",
+                "addressLine2": "Apt 7",
+                "city": "Mumbai",
+                "state": "Karnataka",
+                "pincode": "577007",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 192,
+                "customerId": 19,
+                "addressType": "OFFICE",
+                "addressLine1": "143 Main Street",
+                "addressLine2": "Apt 33",
+                "city": "Delhi",
+                "state": "Maharashtra",
+                "pincode": "149648",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 193,
+                "customerId": 19,
+                "addressType": "DELIVERY",
+                "addressLine1": "397 Main Street",
+                "addressLine2": "Apt 26",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "pincode": "888030",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Karthik Das",
+        "email": "karthik.das20@gmail.com",
+        "phone": "9463891797",
+        "addresses": [
+            {
+                "id": 201,
+                "customerId": 20,
+                "addressType": "HOME",
+                "addressLine1": "404 Main Street",
+                "addressLine2": "Apt 4",
+                "city": "Delhi",
+                "state": "Karnataka",
+                "pincode": "168455",
+                "country": "India",
+                "isDefault": 1
+            },
+            {
+                "id": 202,
+                "customerId": 20,
+                "addressType": "OFFICE",
+                "addressLine1": "468 Main Street",
+                "addressLine2": "Apt 10",
+                "city": "Chennai",
+                "state": "Telangana",
+                "pincode": "175649",
+                "country": "India",
+                "isDefault": 0
+            },
+            {
+                "id": 203,
+                "customerId": 20,
+                "addressType": "DELIVERY",
+                "addressLine1": "222 Main Street",
+                "addressLine2": "Apt 19",
+                "city": "Delhi",
+                "state": "Telangana",
+                "pincode": "494699",
+                "country": "India",
+                "isDefault": 0
+            }
+        ]
+    }
+]
