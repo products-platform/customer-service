@@ -11,11 +11,13 @@ import com.web.demo.repos.AddressRepository;
 import com.web.demo.repos.CustomerRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
+import org.jspecify.annotations.Nullable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 @Service
@@ -30,7 +32,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     private final CustomerRepository customerRepository;
     private final AddressRepository addressRepository;
-    private final CustomerMapper mapper;
+    private final CustomerMapper customerMapper;
 
 
     @PostConstruct
@@ -44,7 +46,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public CustomerResponse createCustomer(CustomerRequest request) {
-        Customer customer = mapper.toEntity(request);
+        Customer customer = customerMapper.toEntity(request);
 
         if (request.addresses() != null && !request.addresses().isEmpty()) {
 
@@ -52,7 +54,7 @@ public class CustomerServiceImpl implements CustomerService {
             boolean defaultFound = false;
 
             List<Address> addresses = request.addresses().stream()
-                    .map(mapper::toEntity)
+                    .map(customerMapper::toEntity)
                     .peek(addr -> {
 
                         // ✅ Unique address type check
@@ -75,17 +77,28 @@ public class CustomerServiceImpl implements CustomerService {
         }
 
         Customer saved = customerRepository.save(customer);
-        return mapper.toResponse(saved);
+        return customerMapper.toResponse(saved);
     }
 
     @Override
     @Transactional
     public String createCustomers(List<CustomerRequest> requests) {
         List<Customer> customers = requests.stream()
-                .map(mapper::mapAndValidateCustomer)
+                .map(customerMapper::mapAndValidateCustomer)
                 .toList();
         customerRepository.saveAll(customers);
         return "Customers created successfully: " + customers.size();
+    }
+
+    @Override
+    public @Nullable CustomerOrderResponse getCustomerAndAddress(Long customerId, Long addressId) {
+        Address address = addressRepository
+                .getCustomerAndAddress(customerId, addressId)
+                .orElseThrow(() -> new RuntimeException("Address not found"));
+
+        Customer customer = address.getCustomer();
+
+        return customerMapper.mapToResponse(customer, address);
     }
 
     @Override
@@ -106,10 +119,10 @@ public class CustomerServiceImpl implements CustomerService {
             customer.getAddresses().forEach(a -> a.setIsDefault(false));
         }
 
-        Address address = mapper.toEntity(request);
+        Address address = customerMapper.toEntity(request);
         address.setCustomer(customer);
 
-        return mapper.toResponse(addressRepository.save(address));
+        return customerMapper.toResponse(addressRepository.save(address));
     }
 
     @Override
@@ -120,7 +133,7 @@ public class CustomerServiceImpl implements CustomerService {
 
         return customer.getAddresses()
                 .stream()
-                .map(mapper::toResponse)
+                .map(customerMapper::toResponse)
                 .toList();
     }
 

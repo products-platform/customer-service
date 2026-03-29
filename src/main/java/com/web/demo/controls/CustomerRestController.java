@@ -40,6 +40,12 @@ public class CustomerRestController {
         return ResponseEntity.ok(customerService.getAddresses(customerId));
     }
 
+    @GetMapping("/{customerId}/{addressId}")
+    public ResponseEntity<CustomerOrderResponse> getCustomerAndAddress(
+            @PathVariable Long customerId,
+            @PathVariable Long addressId) {
+        return ResponseEntity.ok(customerService.getCustomerAndAddress(customerId,addressId));
+    }
 
     @GetMapping("list")
     public List<CustomerDTO> getAllCustomers() {

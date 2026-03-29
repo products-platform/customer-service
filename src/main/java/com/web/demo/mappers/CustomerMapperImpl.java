@@ -1,11 +1,9 @@
 package com.web.demo.mappers;
 
-import com.product.dtos.customer.AddressRequest;
-import com.product.dtos.customer.AddressResponse;
-import com.product.dtos.customer.CustomerRequest;
-import com.product.dtos.customer.CustomerResponse;
+import com.product.dtos.customer.*;
 import com.web.demo.models.Address;
 import com.web.demo.models.Customer;
+import org.jspecify.annotations.Nullable;
 import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
@@ -107,5 +105,24 @@ public class CustomerMapperImpl implements CustomerMapper {
         customer.setAddresses(addresses);
 
         return customer;
+    }
+
+    @Override
+    public @Nullable CustomerOrderResponse mapToResponse(Customer customer, Address address) {
+        return new CustomerOrderResponse(
+                customer.getId(),
+                customer.getName(),
+                customer.getEmail(),
+                customer.getPhone(),
+                address.getId(),
+                address.getAddressType(),
+                address.getAddressLine1(),
+                address.getAddressLine2(),
+                address.getCity(),
+                address.getState(),
+                address.getPincode(),
+                address.getCountry(),
+                address.getIsDefault()
+        );
     }
 }

@@ -1,11 +1,9 @@
 package com.web.demo.mappers;
 
-import com.product.dtos.customer.AddressRequest;
-import com.product.dtos.customer.AddressResponse;
-import com.product.dtos.customer.CustomerRequest;
-import com.product.dtos.customer.CustomerResponse;
+import com.product.dtos.customer.*;
 import com.web.demo.models.Address;
 import com.web.demo.models.Customer;
+import org.jspecify.annotations.Nullable;
 
 public interface CustomerMapper {
 
@@ -18,4 +16,6 @@ public interface CustomerMapper {
     AddressResponse toResponse(Address address);
 
     Customer mapAndValidateCustomer(CustomerRequest customerRequest);
+
+    @Nullable CustomerOrderResponse mapToResponse(Customer customer, Address address);
 }

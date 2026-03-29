@@ -20,4 +20,6 @@ public interface CustomerService {
     List<AddressResponse> getAddresses(Long customerId);
 
     String createCustomers(List<CustomerRequest> request);
+
+    @Nullable CustomerOrderResponse getCustomerAndAddress(Long customerId, Long addressId);
 }
